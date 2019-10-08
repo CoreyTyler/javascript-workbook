@@ -7,8 +7,9 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-let vowels = "aeiou";
 function detectVowel(word) {
+  let vowels = "aeiou";
+
   for (let i = 0; i < word.length; i++) {
     if (vowels.indexOf(word[i]) !== -1) {
       return i;
@@ -25,6 +26,18 @@ function pigLatin(word) {
     return word.slice(firstVowel) + word.slice(0, firstVowel) + "ay";
   }
   return word + "yay";
+}
+
+function translateNow() {
+  var inputBox = document.getElementById("inputElement");
+
+  var englishWord = inputBox.value;
+
+  var pigWord = pigLatin(englishWord);
+
+  var nowYouSeeIt = document.getElementById("outputElement");
+
+  nowYouSeeIt.innerText = pigWord;
 }
 
 function getPrompt() {
