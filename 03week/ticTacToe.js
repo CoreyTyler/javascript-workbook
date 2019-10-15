@@ -115,6 +115,14 @@ function ticTacToe(row, column) {
   }
 }
 
+function placeMark(element) {
+  var cell = document.getElementById(element.id);
+
+  cell.innerText = playerTurn;
+}
+
+placeMark();
+
 function getPrompt() {
   printBoard();
   console.log("It's Player " + playerTurn + "'s turn.");
