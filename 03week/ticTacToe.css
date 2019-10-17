@@ -1,0 +1,89 @@
+#row1 {
+  display: flex;
+
+  flex-direction: row;
+}
+
+#cell1 {
+  border-bottom: 2px solid black;
+
+  border-right: 2px solid black;
+
+  height: 100px;
+
+  width: 100px;
+}
+
+#cell2 {
+  border-bottom: 2px solid black;
+
+  border-right: 2px solid black;
+
+  height: 100px;
+
+  width: 100px;
+}
+
+#cell3 {
+  border-bottom: 2px solid black;
+
+  height: 100px;
+
+  width: 100px;
+}
+
+#row2 {
+  display: flex;
+
+  flex-direction: row;
+}
+
+#cell4 {
+  border-right: 2px solid black;
+
+  border-bottom: 2px solid black;
+
+  height: 100px;
+
+  width: 100px;
+}
+
+#cell5 {
+  border-right: 2px solid black;
+
+  border-bottom: 2px solid black;
+
+  height: 100px;
+
+  width: 100px;
+}
+
+#cell6 {
+  border-bottom: 2px solid black;
+
+  height: 100px;
+
+  width: 100px;
+}
+
+#row3 {
+  display: flex;
+
+  flex-direction: row;
+}
+
+#cell7 {
+  border-right: 2px solid black;
+
+  height: 100px;
+
+  width: 100px;
+}
+
+#cell8 {
+  border-right: 2px solid black;
+
+  height: 100px;
+
+  width: 100px;
+}

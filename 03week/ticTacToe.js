@@ -86,15 +86,10 @@ function diagonalWin() {
 }
 
 function checkForWin() {
-  if (true == horizontalWin()) {
+  if (horizontalWin() || verticalWin() || diagonalWin()) {
     return true;
-  } else if (true == verticalWin()) {
-    return true;
-  } else if (true == verticalWin()) {
-    return true;
-  } else {
-    return false;
   }
+  return false;
 }
 
 function switchPlayer() {
