@@ -70,5 +70,3 @@ const young = arrayOfPersons.filter(year => {
     console.log(year.firstName);
   }
 });
-
-console.log();
