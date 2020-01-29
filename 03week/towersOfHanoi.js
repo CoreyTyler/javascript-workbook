@@ -52,7 +52,7 @@ function isLegal(startStack, endStack) {
 //If the player did not win, return false.
 //A win is then all 4 blocks are in stack B or stack C.
 function checkForWin() {
-  if (stacks.b.length == 4) {
+  if (stacks.b.length == 4 || stacks.c.length == 4) {
     console.log("You win!");
     return true;
   } else {
